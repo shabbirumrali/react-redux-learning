@@ -11,11 +11,11 @@ const TechnicalSkills = () => {
             <div className="information">
             <section>
                 <ul>
-                    {techSkill.map(tech => {
+                    { techSkill.map(tech => {
                         return (
-                            <li key={tech}>{tech} </li>
+                            <li key={tech}> {tech} </li>
                         )
-                    })}
+                    }) }
                 </ul>
             </section>
             </div>
